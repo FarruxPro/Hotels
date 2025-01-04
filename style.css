@@ -290,3 +290,29 @@ body {
 .provide__card img {
     margin-bottom: 24px;
 }
+
+/* Discover */
+
+.discover {
+    margin-top: 120px;
+}
+
+.discover__content {
+    display: flex;
+    background-color: #F4FBF8;
+    gap: 70px;
+    border-radius: 16px;
+}
+
+.discover__text {
+    margin-top: 76px;
+    max-width: 497px;
+}
+
+.discover__subtitle .p1 {
+    margin-bottom: 24px;
+}
+
+.discover__subtitle .p2 {
+    margin-bottom: 50px;
+}
