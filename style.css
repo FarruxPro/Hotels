@@ -74,6 +74,7 @@ body {
 }
 
 .btn {
+    display: inline-block;
     font-size: 14px;
     padding: 10px 20px;
     background-color: #24AB70;
@@ -253,4 +254,39 @@ body {
 
 .card__rating span {
     margin-left: 10px;
+}
+
+/* Provide */
+
+.provide {
+    margin-top: 147px;
+}
+
+.provide__content {
+    display: flex;
+    align-items: start;
+}
+
+.provide__subtitle {
+    max-width: 386px;
+    margin-bottom: 50px;
+}
+
+.provide__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    text-align: center;
+}
+
+.provide__card {
+    padding-top: 50px;
+    width: 193px;
+    height: 193px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 8px;
+}
+
+.provide__card img {
+    margin-bottom: 24px;
 }
