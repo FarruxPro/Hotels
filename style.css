@@ -316,3 +316,52 @@ body {
 .discover__subtitle .p2 {
     margin-bottom: 50px;
 }
+
+/* Alexandr */
+
+.alexandr {
+    margin-top: 120px;
+}
+
+.alexandr__content {
+    display: flex;
+    background-color: #FAFAFA;
+    border-radius: 16px;
+    justify-content: space-between;
+    padding-left: 77px;
+}
+
+.alexandr__texts {
+    margin-top: 65px;
+    max-width: 685px;
+}
+
+.alexandr__subtitle {
+    display: flex;
+    align-items: start;
+    height: 140px;
+    line-height: 28px;
+}
+
+.alexandr__subtitle img:first-child {
+    margin-right: 5px;
+}
+
+.alexandr__subtitle img:last-child {
+    margin-top: 110px;
+}
+
+.alexander__name, .alixandr__profetion {
+    margin-left: 30px;
+}
+
+.alexander__name {
+    margin-top: 57px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.alixandr__profetion {
+    margin-top: 12px;
+    color: #555555;
+}
